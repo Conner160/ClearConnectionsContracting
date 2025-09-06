@@ -45,8 +45,6 @@ body {
 }
 
 .company-logo {
-    height: 80px;
-    width: 80%;
     /* Removed filter to show original JPEG colors with clear background */
 }
 
@@ -201,7 +199,6 @@ body {
     }
     
     .company-logo {
-        height: 90px;
     }
     
     .company-name {
@@ -251,7 +248,6 @@ body {
 /* Responsive Design - Desktop */
 @media (min-width: 1024px) {
     .company-logo {
-        height: 100px;
     }
     
     .company-name {
