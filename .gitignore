@@ -1,0 +1,23 @@
+# Temporary files
+/tmp/
+.DS_Store
+*.tmp
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+Thumbs.db
+*.bak
+
+# Node modules (for future use)
+node_modules/
+package-lock.json
+
+# Build outputs (for future use)
+dist/
+build/
