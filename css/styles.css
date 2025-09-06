@@ -46,7 +46,7 @@ body {
 .company-logo {
     height: 80px;
     width: auto;
-    filter: brightness(0) invert(1); /* Make logo white to match header */
+    /* Removed filter to show original JPEG colors with clear background */
 }
 
 .header-text {
