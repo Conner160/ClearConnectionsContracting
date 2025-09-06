@@ -1,0 +1,38 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#bgGrad)"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="300" height="40" fill="#1e40af"/>
+  
+  <!-- Logo placeholder -->
+  <rect x="10" y="8" width="24" height="24" fill="#60a5fa" rx="2"/>
+  
+  <!-- Navigation items -->
+  <rect x="50" y="12" width="40" height="16" fill="#93c5fd" rx="2"/>
+  <rect x="100" y="12" width="35" height="16" fill="#93c5fd" rx="2"/>
+  <rect x="145" y="12" width="45" height="16" fill="#93c5fd" rx="2"/>
+  
+  <!-- Login button -->
+  <rect x="220" y="8" width="70" height="24" fill="#3b82f6" rx="4"/>
+  <text x="255" y="24" text-anchor="middle" fill="white" font-family="Arial" font-size="12">Login</text>
+  
+  <!-- Content area -->
+  <rect x="20" y="60" width="260" height="120" fill="white" rx="4"/>
+  
+  <!-- Content blocks -->
+  <rect x="30" y="70" width="240" height="16" fill="#e5e7eb" rx="2"/>
+  <rect x="30" y="95" width="180" height="12" fill="#f3f4f6" rx="2"/>
+  <rect x="30" y="115" width="200" height="12" fill="#f3f4f6" rx="2"/>
+  <rect x="30" y="135" width="160" height="12" fill="#f3f4f6" rx="2"/>
+  
+  <!-- TRA branding -->
+  <text x="150" y="160" text-anchor="middle" fill="#1e40af" font-family="Arial" font-size="14" font-weight="bold">TRA</text>
+</svg>
