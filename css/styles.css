@@ -200,7 +200,7 @@ body {
     }
     
     .company-logo {
-        max-width:1vw;
+        max-width: 100%;
     }
     
     .company-name {
@@ -250,7 +250,7 @@ body {
 /* Responsive Design - Desktop */
 @media (min-width: 1024px) {
     .company-logo {
-        max-width:1vw;
+        max-width:100%;
     }
     
     .company-name {
