@@ -44,13 +44,14 @@ body {
 }
 
 .company-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
-    filter: brightness(0) invert(1); /* Make logo white to match header */
+    /* SVG logo already has appropriate colors, no filter needed */
 }
 
 .header-text {
     text-align: center;
+    display: none; /* Hidden since logo now replaces the text title */
 }
 
 .company-name {
@@ -200,7 +201,7 @@ body {
     }
     
     .company-logo {
-        height: 70px;
+        height: 90px;
     }
     
     .company-name {
@@ -250,7 +251,7 @@ body {
 /* Responsive Design - Desktop */
 @media (min-width: 1024px) {
     .company-logo {
-        height: 80px;
+        height: 100px;
     }
     
     .company-name {
