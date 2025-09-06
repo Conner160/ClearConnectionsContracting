@@ -46,12 +46,11 @@ body {
 .company-logo {
     height: 80px;
     width: auto;
-    /* SVG logo already has appropriate colors, no filter needed */
+    filter: brightness(0) invert(1); /* Make logo white to match header */
 }
 
 .header-text {
     text-align: center;
-    display: none; /* Hidden since logo now replaces the text title */
 }
 
 .company-name {
