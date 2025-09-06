@@ -1,0 +1,47 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#bgGrad)"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="300" height="50" fill="#6d28d9"/>
+  
+  <!-- Airtable logo -->
+  <circle cx="30" cy="25" r="12" fill="#a855f7"/>
+  <text x="30" y="31" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">A</text>
+  
+  <!-- Airtable text -->
+  <text x="55" y="31" fill="white" font-family="Arial" font-size="16" font-weight="bold">Airtable</text>
+  
+  <!-- Navigation -->
+  <rect x="150" y="18" width="40" height="14" fill="#c4b5fd" rx="2"/>
+  <rect x="200" y="18" width="35" height="14" fill="#c4b5fd" rx="2"/>
+  <rect x="245" y="18" width="40" height="14" fill="#c4b5fd" rx="2"/>
+  
+  <!-- Workspace content -->
+  <rect x="15" y="70" width="270" height="110" fill="white" rx="8"/>
+  
+  <!-- Table header -->
+  <rect x="25" y="80" width="250" height="25" fill="#f8fafc" rx="4"/>
+  <text x="35" y="97" fill="#374151" font-family="Arial" font-size="12" font-weight="bold">Sales Database</text>
+  
+  <!-- Table columns -->
+  <rect x="25" y="115" width="60" height="15" fill="#e5e7eb" rx="2"/>
+  <rect x="95" y="115" width="80" height="15" fill="#e5e7eb" rx="2"/>
+  <rect x="185" y="115" width="75" height="15" fill="#e5e7eb" rx="2"/>
+  
+  <!-- Data rows -->
+  <rect x="25" y="140" width="60" height="12" fill="#f9fafb" rx="2"/>
+  <rect x="95" y="140" width="80" height="12" fill="#f9fafb" rx="2"/>
+  <rect x="185" y="140" width="75" height="12" fill="#a855f7" rx="2"/>
+  
+  <rect x="25" y="160" width="60" height="12" fill="#f3f4f6" rx="2"/>
+  <rect x="95" y="160" width="80" height="12" fill="#f3f4f6" rx="2"/>
+  <rect x="185" y="160" width="75" height="12" fill="#10b981" rx="2"/>
+</svg>

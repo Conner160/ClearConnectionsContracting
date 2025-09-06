@@ -1,0 +1,45 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#bgGrad)"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="300" height="45" fill="#b91c1c"/>
+  
+  <!-- URC logo -->
+  <rect x="15" y="10" width="70" height="25" fill="#f87171" rx="3"/>
+  <text x="50" y="27" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">URC</text>
+  
+  <!-- Navigation -->
+  <rect x="110" y="15" width="50" height="15" fill="#fca5a5" rx="2"/>
+  <rect x="170" y="15" width="40" height="15" fill="#fca5a5" rx="2"/>
+  <rect x="220" y="15" width="60" height="15" fill="#fca5a5" rx="2"/>
+  
+  <!-- Support content -->
+  <rect x="20" y="65" width="260" height="115" fill="white" rx="6"/>
+  
+  <!-- Support title -->
+  <rect x="30" y="75" width="200" height="20" fill="#fee2e2" rx="3"/>
+  <text x="130" y="89" text-anchor="middle" fill="#dc2626" font-family="Arial" font-size="14" font-weight="bold">Remote Support</text>
+  
+  <!-- Support sections -->
+  <rect x="30" y="105" width="120" height="30" fill="#f9fafb" rx="4"/>
+  <text x="90" y="123" text-anchor="middle" fill="#374151" font-family="Arial" font-size="11">Pairing Guide</text>
+  
+  <rect x="160" y="105" width="110" height="30" fill="#f9fafb" rx="4"/>
+  <text x="215" y="123" text-anchor="middle" fill="#374151" font-family="Arial" font-size="11">Troubleshooting</text>
+  
+  <!-- Instructions -->
+  <rect x="30" y="145" width="240" height="12" fill="#f3f4f6" rx="2"/>
+  <rect x="30" y="165" width="200" height="12" fill="#f9fafb" rx="2"/>
+  
+  <!-- Download button -->
+  <rect x="200" y="145" width="70" height="25" fill="#dc2626" rx="4"/>
+  <text x="235" y="161" text-anchor="middle" fill="white" font-family="Arial" font-size="11">Download</text>
+</svg>
