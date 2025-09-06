@@ -44,9 +44,9 @@ body {
 }
 
 .company-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
-    filter: brightness(0) invert(1); /* Make logo white to match header */
+    /* Removed filter to show original JPEG colors with clear background */
 }
 
 .header-text {
@@ -200,7 +200,7 @@ body {
     }
     
     .company-logo {
-        height: 70px;
+        height: 90px;
     }
     
     .company-name {
@@ -250,7 +250,7 @@ body {
 /* Responsive Design - Desktop */
 @media (min-width: 1024px) {
     .company-logo {
-        height: 80px;
+        height: 100px;
     }
     
     .company-name {
