@@ -1,0 +1,19 @@
+<svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="80" fill="#e3f2fd" rx="8"/>
+  <g transform="translate(20, 10)">
+    <!-- Book/Handbook icon -->
+    <rect x="15" y="15" width="50" height="40" fill="#2c5aa0" rx="2"/>
+    <rect x="18" y="18" width="44" height="34" fill="white" rx="1"/>
+    
+    <!-- Lines representing text -->
+    <line x1="22" y1="25" x2="58" y2="25" stroke="#666" stroke-width="1.5"/>
+    <line x1="22" y1="30" x2="54" y2="30" stroke="#666" stroke-width="1.5"/>
+    <line x1="22" y1="35" x2="58" y2="35" stroke="#666" stroke-width="1.5"/>
+    <line x1="22" y1="40" x2="50" y2="40" stroke="#666" stroke-width="1.5"/>
+    <line x1="22" y1="45" x2="56" y2="45" stroke="#666" stroke-width="1.5"/>
+    
+    <!-- Bookmark ribbon -->
+    <rect x="58" y="15" width="4" height="25" fill="#ff6b35"/>
+    <polygon points="60,35 62,32 60,29" fill="#ff6b35"/>
+  </g>
+</svg>
