@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technician Handbook - Clear Connections Contracting</title>
+    <meta name="description" content="Clear Connections Contracting Technician Handbook - Learning materials and how-to guides">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/handbook.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="../images/logo_transparent.png" alt="Clear Connections Contracting Logo" class="company-logo">
+                <div class="header-text">
+                    <h1>Technician Handbook</h1>
+                    <p class="tagline">Learning materials and how-to guides</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="handbook-container">
+        <aside class="handbook-sidebar">
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="handbook-search" 
+                    placeholder="Search handbook..." 
+                    aria-label="Search handbook topics"
+                >
+                <button id="search-clear" aria-label="Clear search">×</button>
+            </div>
+            
+            <nav class="handbook-nav" role="navigation" aria-label="Handbook topics">
+                <h2>Topics</h2>
+                <ul id="topic-list">
+                    <li>
+                        <button class="topic-btn active" data-topic="basic-fibre-splicing">
+                            Basic Fibre Splicing
+                        </button>
+                    </li>
+                    <li>
+                        <button class="topic-btn" data-topic="advanced-modem-provisioning">
+                            Advanced Modem Provisioning
+                        </button>
+                    </li>
+                    <li>
+                        <button class="topic-btn" data-topic="troubleshooting">
+                            Troubleshooting Guide
+                        </button>
+                    </li>
+                    <li>
+                        <button class="topic-btn" data-topic="safety-procedures">
+                            Safety Procedures
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="handbook-content">
+            <div class="content-header">
+                <div class="breadcrumb" aria-label="Breadcrumb navigation">
+                    <span>Handbook</span> / <span id="current-topic">Basic Fibre Splicing</span>
+                </div>
+                <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation menu">
+                    ☰
+                </button>
+            </div>
+            
+            <article id="content-area" class="content-area" role="main">
+                <div class="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>Loading content...</p>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Clear Connections Contracting. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/handbook.js"></script>
+</body>
+</html>
